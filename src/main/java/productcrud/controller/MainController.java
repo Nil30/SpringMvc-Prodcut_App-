@@ -22,7 +22,7 @@ public class MainController {
 	@Autowired
 	private ProductDao productDao;
 
-	//for index page
+	
 	@RequestMapping("/")
 	public String home(Model m)
 	{
